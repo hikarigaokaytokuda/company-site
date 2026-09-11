@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Skyline Technologies</title>
+<meta name="description" content="架空のソフトウェア開発会社スカイライン・テクノロジーズのコーポレートサイト">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="site-nav">
+    <a class="brand" href="#top">
+      <span class="brand-jp">スカイライン・テクノロジーズ</span>
+      <span class="brand-en">SKYLINE TECHNOLOGIES</span>
+    </a>
+    <nav class="links">
+      <a href="#services">事業内容</a>
+      <a href="#works">実績</a>
+      <a href="#company">会社概要</a>
+      <a href="#careers">採用情報</a>
+      <a href="#contact">お問い合わせ</a>
+    </nav>
+  </div>
+</header>
+
+<div class="announce">
+  <div class="wrap announce-inner">
+    <span class="announce-label">NEWS</span>
+    <ul class="announce-list">
+      <li><time datetime="2026-09-01">2026.09.01</time><span>採用情報を更新しました。中途エンジニアを募集しています。</span></li>
+      <li><time datetime="2026-07-15">2026.07.15</time><span>大阪オフィスを開設しました。</span></li>
+      <li><time datetime="2026-04-01">2026.04.01</time><span>2026年度 新卒エンジニアが入社しました。</span></li>
+    </ul>
+  </div>
+</div>
+
+<section class="hero" id="top">
+  <canvas id="skyline-canvas" aria-hidden="true"></canvas>
+  <div class="hero-content">
+    <p class="eyebrow">SOFTWARE ENGINEERING STUDIO — EST. 2016</p>
+    <h1 class="hero-title">地平線の先にある、<br>次のシステムを描く。</h1>
+    <p class="hero-sub">スカイライン・テクノロジーズは、企業の基幹システムから新規プロダクトまで、設計から運用までを一貫して支えるソフトウェア開発スタジオです。</p>
+    <div class="hero-cta">
+      <a class="btn btn-primary" href="#contact">プロジェクトを相談する</a>
+      <a class="btn btn-ghost" href="#works">実績を見る</a>
+    </div>
+  </div>
+</section>
+
+<main>
+  <section id="mission">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow">MISSION</p>
+      </div>
+      <div class="mission-grid">
+        <p class="mission-statement reveal">静かに、確実に動き続ける仕組みを、いちからつくる。</p>
+        <div class="mission-body reveal">
+          <p>大きなシステムほど、目立たない部分の設計がその後の何年も左右します。私たちは派手な演出よりも、負荷に耐え、変化に強く、担当者が変わっても保守できるコードを選びます。</p>
+          <p>要件定義から設計、実装、そしてリリース後の運用まで。役割を分業に切り分けるのではなく、少人数のチームが最初から最後まで責任を持って伴走することで、意思決定の速さと品質を両立させています。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow">SERVICES</p>
+        <h2>事業内容</h2>
+        <p class="section-lede">構想段階の壁打ちから、リリース後の安定運用まで。開発工程を分断せず、4つの領域を横断して支援します。</p>
+      </div>
+      <div class="service-grid reveal">
+        <div class="service-card">
+          <p class="service-fig">FIG. 01</p>
+          <h3>カスタムソフトウェア開発</h3>
+          <p>業務システムから顧客向けプロダクトまで、要件定義・設計・実装をワンチームで担当します。既存システムとの連携や段階的な移行にも対応。</p>
+        </div>
+        <div class="service-card">
+          <p class="service-fig">FIG. 02</p>
+          <h3>クラウドインフラ構築・運用</h3>
+          <p>AWS / GCP を中心としたインフラ設計と、負荷に応じて拡張できるアーキテクチャの構築。監視体制の整備までを含めて設計します。</p>
+        </div>
+        <div class="service-card">
+          <p class="service-fig">FIG. 03</p>
+          <h3>UI / UX デザイン</h3>
+          <p>使う人の業務フローを起点にした画面設計。エンジニアとデザイナーが同じチームで動くため、実装との齟齬が生まれにくい体制です。</p>
+        </div>
+        <div class="service-card">
+          <p class="service-fig">FIG. 04</p>
+          <h3>システム保守・運用サポート</h3>
+          <p>リリース後の障害対応、性能改善、機能追加までを継続的に支援。開発した本人が運用まで見るため、原因調査のスピードが違います。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="works">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow">SELECTED WORKS</p>
+        <h2>実績</h2>
+        <p class="section-lede">業種を問わず、既存の仕組みが複雑化してしまった現場での刷新プロジェクトを数多く手がけています。</p>
+      </div>
+      <div class="works-list reveal">
+        <div class="work-row">
+          <p class="work-fig">CASE 01</p>
+          <p class="work-title">地方銀行 勘定系システムの刷新<span>老朽化したオンプレミス基盤をクラウドへ段階移行</span></p>
+          <p class="work-metric"><b>4.2倍</b>処理速度</p>
+        </div>
+        <div class="work-row">
+          <p class="work-fig">CASE 02</p>
+          <p class="work-title">D2Cアパレル企業向け 在庫管理SaaS<span>複数拠点の在庫をリアルタイムに一元管理</span></p>
+          <p class="work-metric"><b>92%減</b>在庫誤差</p>
+        </div>
+        <div class="work-row">
+          <p class="work-fig">CASE 03</p>
+          <p class="work-title">製造ラインの稼働監視ダッシュボード<span>IoTセンサーのデータを可視化し異常を即時検知</span></p>
+          <p class="work-metric"><b>24h</b>監視体制</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="stats-band">
+    <div class="wrap">
+      <div class="section-head reveal" style="border-top-color: color-mix(in srgb, var(--cream) 25%, transparent);">
+        <p class="eyebrow" style="color: var(--amber-bright);">BY THE NUMBERS</p>
+      </div>
+      <div class="stats-grid reveal">
+        <div class="stat">
+          <b>10期目</b>
+          <span>2016年創業</span>
+        </div>
+        <div class="stat">
+          <b>320+</b>
+          <span>プロジェクト実績</span>
+        </div>
+        <div class="stat">
+          <b>87名</b>
+          <span>従業員数</span>
+        </div>
+        <div class="stat">
+          <b>99.98%</b>
+          <span>平均システム稼働率</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="company">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow">COMPANY</p>
+        <h2>会社概要</h2>
+      </div>
+      <table class="company-table reveal">
+        <tr><th>会社名</th><td>スカイライン・テクノロジーズ株式会社</td></tr>
+        <tr><th>設立</th><td>2016年4月</td></tr>
+        <tr><th>代表者</th><td>代表取締役CEO　高峰 悠人</td></tr>
+        <tr><th>資本金</th><td>8,000万円</td></tr>
+        <tr><th>従業員数</th><td>87名（2026年4月現在）</td></tr>
+        <tr><th>事業内容</th><td>ソフトウェア受託開発 / クラウドインテグレーション / UI・UXデザイン / システム運用保守</td></tr>
+        <tr><th>所在地</th><td>東京都渋谷区恵比寿一丁目20番3号 スカイラインビル8F</td></tr>
+      </table>
+    </div>
+  </section>
+
+  <section id="careers" class="cta-band">
+    <div class="wrap">
+      <div class="cta-inner reveal">
+        <div>
+          <h2>一緒につくる仲間を探しています。</h2>
+          <p>設計からリリース後の運用まで見届けたいエンジニア・デザイナーを募集中です。中途・新卒どちらも歓迎します。</p>
+        </div>
+        <a class="btn btn-primary" href="#contact">採用ページを見る</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow">CONTACT</p>
+        <h2>お問い合わせ</h2>
+        <p class="section-lede">開発のご相談、お見積もり、取材のご依頼など、お気軽にご連絡ください。2営業日以内にご返信いたします。</p>
+      </div>
+      <div class="hero-cta reveal" style="margin-top:0;">
+        <a class="btn btn-primary" href="mailto:contact@skyline-technologies.example.jp" style="background:var(--teal); color:#fff;">contact@skyline-technologies.example.jp</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site">
+  <div class="wrap footer-inner">
+    <span>© 2026 Skyline Technologies, Inc.</span>
+    <nav>
+      <a href="#services">事業内容</a>
+      <a href="#works">実績</a>
+      <a href="#company">会社概要</a>
+      <a href="#contact">お問い合わせ</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
